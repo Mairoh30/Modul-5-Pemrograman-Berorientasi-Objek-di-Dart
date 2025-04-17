@@ -1,9 +1,9 @@
 class Parent {
-  void m1() => print('Metode m1() miliki kelas Parent');
+  void m1() => print('Metode m1() milik kelas Parent');
 }
 
 class Child extends Parent {
-  void m2() => print('Metode m2() miliki kelas Child');
+  void m2() => print('Metode m2() milik kelas Child');
 }
 
 void main(List<String> args) {

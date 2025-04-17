@@ -1,5 +1,7 @@
+//hak akses protected bisa diakses di kelas turunannya
+//private tdk bisa diakses di luar kelas hanya bisa di dalam kelas itu sendiri
 class Point {
-  int _x;
+  int _x; //hak akses private ditandai dgh tanda underscore
   int _y;
 
   Point() : _x = 0, _y = 0;

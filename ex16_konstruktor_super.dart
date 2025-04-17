@@ -7,6 +7,6 @@ void main(List<String> args) {
 
   Person s = Student();
   print(s.name);
-  Person farhana = Student(studentName: 'Farhana');
-  print(farhana.name);
+  Person mairoh = Student(studentName: 'Mairoh');
+  print(mairoh.name);
 }

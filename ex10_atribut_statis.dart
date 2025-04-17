@@ -1,3 +1,4 @@
+// statis: mempertahankan nilai
 class Point {
   int? _x;
   int? _y;
@@ -21,7 +22,7 @@ class Point {
     _y = y;
   }
 
-  set x(int value) => _x = value;
+  set x(int value) => _x = value; //=> tanda fungsi ringkas
   set y(int value) => _y = value;
 
   int get x => _x!;

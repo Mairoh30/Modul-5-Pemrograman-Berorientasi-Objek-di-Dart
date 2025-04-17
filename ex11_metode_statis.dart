@@ -1,3 +1,4 @@
+// bisa dipanggil tanpa membuat objek
 class Arithmetic {
   static double add(double a, double b) {
     return a + b;

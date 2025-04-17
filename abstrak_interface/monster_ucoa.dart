@@ -2,8 +2,9 @@ import 'monster_ubur_ubur.dart';
 import 'flying_monster.dart';
 
 class MonsterUcoa extends MonsterUburUbur
-    implements FlyingMonster, FlyingInTheSky {
-  @override
+    implements FlyingMonster, FlyingInTheSky {  //interface
+
+  @override //ditulis kembali
   int height = 2000;
 
   @override

@@ -1,5 +1,8 @@
+//Getter: Metode untuk mengambil nilai dari suatu atribut (variabel dalam class).
+//Setter: Metode untuk mengatur/mengubah nilai dari suatu atribut.
+
 class Point {
-  int? _x;
+  int? _x; //variabel private tidak boleh dipanggil
   int? _y;
 
   Point() {
@@ -18,6 +21,7 @@ class Point {
   }
 
   set x(int value) {
+    //method
     _x = value;
   }
 

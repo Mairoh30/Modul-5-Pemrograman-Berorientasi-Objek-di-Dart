@@ -1,3 +1,4 @@
+//untuk sinkronisasi tugas atau job
 void main(List<String> args) async {
   var p = Person();
   print('job 1');
